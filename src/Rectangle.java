@@ -1,15 +1,25 @@
-import com.math.Calculator;
+// Rectangle calculates area and perimeter of the rectangle
 
 public class Rectangle {
-    private final int width;
-    private final int height;
+    private final double length;
+    private final double width;
 
-    public Rectangle(int width, int height) {
-        this.width = width;
-        this.height = height;
+    public static Rectangle createRectangle(double length, double width) throws Exception {
+        if(length <= 0 || width <= 0)
+            throw new Exception("Rectangle length, width should be positive");
+        return new Rectangle(length, width);
     }
 
-    public int calcualte(Calculator calculator) {
-        return calculator.calculate(width, height);
+    private Rectangle(double length, double width) {
+        this.width = width;
+        this.length = length;
+    }
+
+    public double calculateArea() {
+        return width * length;
+    }
+
+    public double calcualtePerimeter() {
+        return 2 * (width + length);
     }
 }
