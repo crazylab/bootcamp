@@ -1,3 +1,5 @@
+import com.math.Calculator;
+
 public class Rectangle {
     private final int width;
     private final int height;
@@ -7,7 +9,7 @@ public class Rectangle {
         this.height = height;
     }
 
-    public int calcualteArea() {
-        return width * height;
+    public int calcualte(Calculator calculator) {
+        return calculator.calculate(width, height);
     }
 }
