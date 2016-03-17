@@ -1,4 +1,4 @@
-// Rectangle calculates area and perimeter of the rectangle
+package quadrilaterals;// Rectangle calculates area and perimeter of the rectangle
 //Rectangle throws exception when positive value is not passed to it while creating it
 
 import exception.InvalidScaleValueException;
@@ -15,7 +15,7 @@ public class Rectangle {
         return new Rectangle(length, width);
     }
 
-    private Rectangle(double length, double width) {
+    Rectangle(double length, double width) {
         this.width = width;
         this.length = length;
     }
