@@ -29,13 +29,13 @@ public class SquareTest {
 
     @Test
     public void calculateArea_gives_100_when_edge_is_10() throws InvalidScaleValueException {
-        Square rectangle = Square.createSquare(10);
-        assertEquals(100, rectangle.calculateArea(), 0.5);
+        Square square = Square.createSquare(10);
+        assertEquals(100, square.calculateArea(), 0.5);
     }
 
     @Test
     public void calculatePerimeter_gives_20_when_edge_is_5() throws InvalidScaleValueException {
-        Square rectangle = Square.createSquare(5);
-        assertEquals(20, rectangle.calculatePerimeter(), 0.5);
+        Square square = Square.createSquare(5);
+        assertEquals(20, square.calculatePerimeter(), 0.5);
     }
 }

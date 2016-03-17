@@ -15,7 +15,7 @@ public class Rectangle {
         return new Rectangle(length, width);
     }
 
-    Rectangle(double length, double width) {
+    protected Rectangle(double length, double width) {
         this.width = width;
         this.length = length;
     }
