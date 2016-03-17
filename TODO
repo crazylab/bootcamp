@@ -3,3 +3,11 @@ represent rectangle
 caculate area
 calculate perimeter
 represent square
+
+represent a chanceCounter of getting a tails when flipping a coinSides
+
+represent a chanceCounter of getting tails when flipping two coins
+
+represent a chance of getting at least one tail when flipping two coins
+
+P(A||B) = !(!P(A)&&!P(B))

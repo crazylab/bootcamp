@@ -1,9 +1,9 @@
-import exception.InvalidScaleValueException;
+import geometry.quadrilaterals.exception.InvalidScaleValueException;
 import org.hamcrest.CoreMatchers;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import quadrilaterals.Square;
+import geometry.quadrilaterals.Square;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,7 +1,9 @@
-package quadrilaterals;// Rectangle calculates area and perimeter of the rectangle
+package geometry.quadrilaterals;
+
+// Rectangle calculates area and perimeter of the rectangle
 //Rectangle throws exception when positive value is not passed to it while creating it
 
-import exception.InvalidScaleValueException;
+import geometry.quadrilaterals.exception.InvalidScaleValueException;
 
 public class Rectangle {
     private final double length;
