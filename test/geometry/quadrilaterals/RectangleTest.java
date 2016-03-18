@@ -1,9 +1,10 @@
+package geometry.quadrilaterals;
+
 import geometry.quadrilaterals.exception.InvalidScaleValueException;
 import org.hamcrest.CoreMatchers;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import geometry.quadrilaterals.Rectangle;
 
 import static org.junit.Assert.assertEquals;
 
