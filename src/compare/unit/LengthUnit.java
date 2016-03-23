@@ -1,4 +1,4 @@
-package compare;
+package compare.unit;
 
 public enum LengthUnit implements MeasurementUnit {
     FEET(304.8),

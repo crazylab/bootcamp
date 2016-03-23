@@ -1,4 +1,4 @@
-package compare;
+package compare.unit;
 
 public enum VolumeUnit implements MeasurementUnit {
     GALLON(3780),

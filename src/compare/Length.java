@@ -2,6 +2,8 @@ package compare;
 
 //Adds 2 Length
 
+import compare.unit.LengthUnit;
+
 public class Length extends Measurement<Length, LengthUnit> {
 
     public Length(double value, LengthUnit unit) {

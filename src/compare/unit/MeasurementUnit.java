@@ -1,4 +1,4 @@
-package compare;
+package compare.unit;
 
 public interface MeasurementUnit {
     double convertToBase(double value);

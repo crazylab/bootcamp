@@ -1,6 +1,6 @@
 Requirement:
 represent rectangle
-caculate area
+calculate area
 calculate perimeter
 represent square
 --------------------------------------------------------------------------
@@ -18,4 +18,23 @@ I wish to compare length in cm and mm
 I wish to compare volumes in liter and galon
 I wish to add two lengths in inches
 I wish to be able to add two lengths in any unit and the standard output is inches
-I wish to
+--------------------------------------------------------------------------
+-->The kingdom of Balloria is known for its wizards and their colourful magical balls.
+These balls are very powerful and have to be stored safely when not in use.
+
+as a provider of a service that lets wizard store their balls
+I'd like a bag that can hold a maximum of 12 balls
+
+As a provider of a service that lets user store their balls I'd like a
+bag that allows a wizard to only put in a maximum of 3 green balls
+
+I would like a bag that prevents a wizard from adding double the number of red balls than green balls
+
+
+--> If ball placement rule is violated then the ball will explode
+
+I have to report any attempt that violates any of the placement rules
+
+I like a bag that lets a wizard as many blue ball as the bag can hold
+
+I'd like to threshold the number of yellow balls to only 40% of the number of balls in the bag

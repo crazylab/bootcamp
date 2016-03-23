@@ -2,11 +2,14 @@ package compare;
 
 //Compares between 2 measurement when they are of same type
 
+import compare.exception.MeasurementTypeException;
+import compare.unit.MeasurementUnit;
+
 public abstract class Measurement<MeasurementType extends Measurement, Unit extends MeasurementUnit> {
-    private compare.MeasurementUnit unit;
+    private MeasurementUnit unit;
     private double value;
 
-    public Measurement(double value, compare.MeasurementUnit unit) {
+    public Measurement(double value, MeasurementUnit unit) {
         this.unit = unit;
         this.value = value;
     }

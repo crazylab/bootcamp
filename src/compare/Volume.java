@@ -1,4 +1,7 @@
 package compare;
+
+import compare.unit.VolumeUnit;
+
 //adds 2 Volume
 public class Volume extends Measurement<Volume,VolumeUnit> {
     public Volume(double value, VolumeUnit unit) {

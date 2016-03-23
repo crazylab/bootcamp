@@ -1,5 +1,8 @@
 package compare;
 
+import compare.exception.MeasurementTypeException;
+import compare.unit.LengthUnit;
+import compare.unit.VolumeUnit;
 import org.hamcrest.CoreMatchers;
 import org.junit.Rule;
 import org.junit.Test;
