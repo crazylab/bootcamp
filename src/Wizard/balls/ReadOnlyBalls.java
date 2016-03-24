@@ -1,4 +1,7 @@
-package wizard;
+package wizard.balls;
+
+import wizard.Color;
+import wizard.balls.Balls;
 
 public class ReadOnlyBalls {
 

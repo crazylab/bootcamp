@@ -1,4 +1,4 @@
-package wizard.rules;
+package wizard.rules.exceptions;
 
 import wizard.Color;
 

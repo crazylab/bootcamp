@@ -4,8 +4,10 @@ import org.hamcrest.CoreMatchers;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+import wizard.balls.Balls;
+import wizard.balls.ReadOnlyBalls;
 import wizard.rules.YellowBallRule;
-import wizard.rules.YellowBallRuleViolationException;
+import wizard.rules.exceptions.YellowBallRuleViolationException;
 
 import static org.junit.Assert.assertTrue;
 

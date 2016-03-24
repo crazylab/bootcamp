@@ -2,6 +2,8 @@ package wizard;
 
 import org.junit.Before;
 import org.junit.Test;
+import wizard.balls.Balls;
+import wizard.balls.ReadOnlyBalls;
 
 import static org.junit.Assert.assertEquals;
 

@@ -3,8 +3,10 @@ package wizard;
 import org.hamcrest.CoreMatchers;
 import org.junit.*;
 import org.junit.rules.ExpectedException;
+import wizard.balls.Balls;
+import wizard.balls.ReadOnlyBalls;
 import wizard.rules.GreenBallRule;
-import wizard.rules.GreenBallRuleViolationException;
+import wizard.rules.exceptions.GreenBallRuleViolationException;
 
 import static org.junit.Assert.assertTrue;
 

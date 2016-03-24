@@ -1,4 +1,7 @@
-package wizard;
+package wizard.balls;
+
+import wizard.Ball;
+import wizard.Color;
 
 import java.util.ArrayList;
 

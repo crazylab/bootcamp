@@ -5,8 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import wizard.Ball;
-import wizard.Balls;
-import wizard.ReadOnlyBalls;
+import wizard.balls.Balls;
+import wizard.balls.ReadOnlyBalls;
+import wizard.rules.exceptions.RedBallRuleViolationException;
+import wizard.rules.exceptions.RuleViolationForColorException;
 
 import static org.junit.Assert.assertTrue;
 

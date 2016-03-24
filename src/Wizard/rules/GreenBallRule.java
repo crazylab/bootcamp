@@ -2,7 +2,8 @@ package wizard.rules;
 
 import wizard.Ball;
 import wizard.Color;
-import wizard.ReadOnlyBalls;
+import wizard.balls.ReadOnlyBalls;
+import wizard.rules.exceptions.GreenBallRuleViolationException;
 
 public class GreenBallRule implements Rule {
     private final int limit;

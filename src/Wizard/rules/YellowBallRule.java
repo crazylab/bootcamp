@@ -2,7 +2,8 @@ package wizard.rules;
 
 import wizard.Ball;
 import wizard.Color;
-import wizard.ReadOnlyBalls;
+import wizard.balls.ReadOnlyBalls;
+import wizard.rules.exceptions.YellowBallRuleViolationException;
 
 public class YellowBallRule implements Rule {
     private final double threshold;
