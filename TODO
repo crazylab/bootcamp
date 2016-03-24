@@ -44,3 +44,11 @@ As a parking lot attandant, I want to park a car
 I want to know when the lot is full
 
 I want to handle more than 1 parking lot
+
+I want an assitant to monitor the same parking lots as me and update a display
+
+I want to know when the lot is 80% full so that I don't assign that lot to a trainee
+
+I want to know when the lot is 20% or less occupied so that I can promote the lot
+
+As a civic body,I want to know when the parking lots are 80% full so i can collect more taxes

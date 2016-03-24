@@ -8,16 +8,18 @@ import java.util.List;
 public class ParkingLot {
 
     private List<ParkingSpot> parkingLot;
+    private int capacity;
 
-    public ParkingLot(List<ParkingSpot> parkingLot) {
+    public ParkingLot(List<ParkingSpot> parkingLot, int capacity) {
         this.parkingLot = parkingLot;
+        this.capacity = capacity;
     }
 
     public static ParkingLot create(int capacity){
         List<ParkingSpot> parkingSpace = new ArrayList();
         for(int i=0; i<capacity; i++)
             parkingSpace.add(new ParkingSpot());
-        return new ParkingLot(parkingSpace);
+        return new ParkingLot(parkingSpace, capacity);
     }
 
     public boolean parkCar(Car car) {
@@ -36,5 +38,18 @@ public class ParkingLot {
                 return false;
         }
         return true;
+    }
+
+    public int totalCapacity() {
+        return capacity;
+    }
+
+    public int totalAvailableSpace() {
+        int totalAvailable = 0;
+        for (ParkingSpot parkingSpot : parkingLot) {
+            if(parkingSpot.isAvailable())
+                totalAvailable++;
+        }
+        return totalAvailable;
     }
 }

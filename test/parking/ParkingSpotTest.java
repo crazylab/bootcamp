@@ -15,7 +15,7 @@ public class ParkingSpotTest {
     @Test
     public void should_return_false_when_it_is_not_available() {
         ParkingSpot parkingSpot = new ParkingSpot();
-        parkingSpot.addCar(new Car(1));
+        parkingSpot.addCar(new Car());
         assertFalse(parkingSpot.isAvailable());
     }
 }
